@@ -28,13 +28,13 @@ console.log(evenFilter(arr))
 function primeNumber(arr,cb){
     var primeArray=[]
     for(var i=0;i<arr.length;i++){
-        if(arr[i]%2!=0 &&   ){
+        if(cb(arr[i],i,arr)){
 
-            cb(primeArray.push(arr[i]))
+            primeArray.push(arr[i])
         }
     }
     return primeArray
 }
 console.log(primeNumber(arr,function(value){
-    return value
+    return value%2!=0
 }))
