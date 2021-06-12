@@ -6,4 +6,4 @@ return function(){
     console.log(x)
 }
 }
-console.dir(a())
+console.dir(a())   

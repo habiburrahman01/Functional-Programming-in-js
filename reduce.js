@@ -3,7 +3,7 @@
 var arr=[10,1,11,23,5,7,82,40,55,14,15,13]
 
 var sum=arr.reduce(function(prev,crnt){
-    return prev+crnt
+    return prev+crnt  
 },10) //10 will be added to the total sum ,10 is initializer
 console.log(sum)
 
